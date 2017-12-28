@@ -1,0 +1,30 @@
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:42:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+==== RESTART: C:\UCSCExtension\Python-Beginners\Homework_3\homework_3.py ====
+Enter a three word phrase without punctuation. 
+Enter 'quit' to exit.
+quit
+>>> 
+==== RESTART: C:\UCSCExtension\Python-Beginners\Homework_3\homework_3.py ====
+Enter a three word phrase without punctuation. 
+Enter 'quit' to exit.
+ master boot ant apple
+the number of words is 4
+The number of words must be exactly 3. Exiting
+>>> 
+==== RESTART: C:\UCSCExtension\Python-Beginners\Homework_3\homework_3.py ====
+Enter a three word phrase without punctuation. 
+Enter 'quit' to exit.
+imaGE boOt ANt 
+
+Your phrase in Pig Latin is:  ['imagehay', 'ootbay', 'anthay'] 
+
+Enter a three word phrase without punctuation. 
+Enter 'quit' to exit.
+Wanda imaGE APPle 
+
+Your phrase in Pig Latin is:  ['andaway', 'imagebay', 'applebay'] 
+
+Enter a three word phrase without punctuation. 
+Enter 'quit' to exit.

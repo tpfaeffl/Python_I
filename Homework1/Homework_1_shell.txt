@@ -1,0 +1,80 @@
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:42:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+
+>>> 
+========== RESTART: C:\UCSCExtension\Python\Homework1\Homework_1.py ==========
+What is your dream job? baker
+What is your ideal hourly wage? 30.33
+The value provided 30.33 IS a valid number
+ 
+The worker works hourly for 48 weeks/year with no paid vacation.
+However, payment spread over 52 weeks.
+
+Your weekly income is 1119.88
+Your annual income is 58233.60
+ 
+How much total funds do you want in retirement? 500000
+ 
+The value provided 500000 IS a valid number
+ 
+It will take 8.59 years to save retirement funds
+ 
+If the number of years is  8  then it is an even number
+>>> 
+========== RESTART: C:\UCSCExtension\Python\Homework1\Homework_1.py ==========
+What is your dream job? baker
+What is your ideal hourly wage? 35.33
+The value provided 35.33 IS a valid number
+ 
+The worker works hourly for 48 weeks/year with no paid vacation.
+However, payment spread over 52 weeks.
+
+Your weekly income is 1304.49
+Your annual income is 67833.60
+ 
+How much total funds do you want in retirement? 500000
+ 
+The value provided 500000 IS a valid number
+ 
+It will take 7.37 years to save retirement funds
+If the number of years is  7 is an odd number
+>>> 
+========== RESTART: C:\UCSCExtension\Python\Homework1\Homework_1.py ==========
+What is your dream job? baker
+What is your ideal hourly wage? thirty
+The value provided thirty is NOT a valid number. Exiting program.
+>>> 
+========== RESTART: C:\UCSCExtension\Python\Homework1\Homework_1.py ==========
+What is your dream job? baker
+What is your ideal hourly wage? -30.33
+-30.33 is NOT a valid value. Exiting program.
+>>> 
+========== RESTART: C:\UCSCExtension\Python\Homework1\Homework_1.py ==========
+What is your dream job? baker
+What is your ideal hourly wage? 30.33
+The value provided 30.33 IS a valid number
+ 
+The worker works hourly for 48 weeks/year with no paid vacation.
+However, payment spread over 52 weeks.
+
+Your weekly income is 1119.88
+Your annual income is 58233.60
+ 
+How much total funds do you want in retirement? five hundred thousand
+ 
+The input provided five hundred thousand is NOT a valid number. Exiting program.
+>>> 
+========== RESTART: C:\UCSCExtension\Python\Homework1\Homework_1.py ==========
+What is your dream job? baker
+What is your ideal hourly wage? 30.33
+The value provided 30.33 IS a valid number
+ 
+The worker works hourly for 48 weeks/year with no paid vacation.
+However, payment spread over 52 weeks.
+
+Your weekly income is 1119.88
+Your annual income is 58233.60
+ 
+How much total funds do you want in retirement? -500000
+-500000 is NOT a valid number. Exiting program.
+>>> 

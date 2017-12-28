@@ -1,0 +1,90 @@
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:42:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+>>> # with 5 unique cities works fine.
+
+== RESTART: C:/UCSCExtension/Python-Beginners/Homework_4/homework_4_test.py ==
+Calling AskForNumberCities
+
+
+How many cities to you want to visit? 5
+
+
+Calling AskForCityName
+
+
+Enter the names of cities: Perth
+['Perth']
+
+Enter the names of cities: Amboy
+['Perth', 'Amboy']
+
+Enter the names of cities: Silver
+['Perth', 'Amboy', 'Silver']
+
+Enter the names of cities: Bay
+['Perth', 'Amboy', 'Silver', 'Bay']
+
+Enter the names of cities: Fords
+['Perth', 'Amboy', 'Silver', 'Bay', 'Fords']
+
+Perth Amboy Silver Bay Fords
+
+Calling PrintFirstCitySentence 
+
+
+You would like to visit Perth as city 1 and Amboy as city 2 and Silver as city 3 on your trip.  
+
+
+Calling PrintAddOneCityNumSentence 
+
+
+You would like to visit Perth as city 2 and Amboy as city 3 and Silver as city 4 on your trip.
+
+
+>>> 
+>>> # OK, it will detect and delete duplicates, but will not re-set the outer loop
+>>> # to make up for the deleted city. Only 4 cities returned
+>>> 
+
+
+== RESTART: C:/UCSCExtension/Python-Beginners/Homework_4/homework_4_test.py ==
+Calling AskForNumberCities
+
+
+How many cities to you want to visit? 5
+
+
+Calling AskForCityName
+
+
+Enter the names of cities: Perth
+['Perth']
+
+Enter the names of cities: Amboy
+['Perth', 'Amboy']
+
+Enter the names of cities: Perth
+
+You entered a duplicate. Choose different city
+
+
+Enter the names of cities: Silver
+['Perth', 'Amboy', 'Silver']
+
+Enter the names of cities: Bay
+['Perth', 'Amboy', 'Silver', 'Bay']
+
+Perth Amboy Silver Bay
+
+Calling PrintFirstCitySentence 
+
+
+You would like to visit Perth as city 1 and Amboy as city 2 and Silver as city 3 on your trip.  
+
+
+Calling PrintAddOneCityNumSentence 
+
+
+You would like to visit Perth as city 2 and Amboy as city 3 and Silver as city 4 on your trip.
+>>> 

@@ -1,0 +1,27 @@
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:42:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+======== RESTART: C:\idelX\idlex-1.13\homework_5_solution_program.py ========
+-----Calling AskForFileName-----
+
+
+Enter the name of the file do you want to process:
+1JKB.pdb
+-----Calling ReadFileContents-----
+
+
+-----Calling BuildHeadList-----
+
+
+-----Calling BuildAtomList-----
+
+-----Calling BuildTailList-----
+
+
+-----Calling WriteNewFile-----
+
+
+----------Calling DifferenceTwoFiles---------
+
+The number of differences between the files is:  0
+>>> 

@@ -1,0 +1,209 @@
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:42:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> string_1 = "hello Student"
+>>> print string_1
+hello Student
+>>> type (string_1)
+<type 'str'>
+>>> print string_1[0]
+h
+>>> print string_1[0:2]
+he
+>>> print string _1[6]
+SyntaxError: invalid syntax
+>>> print string_1[7]
+t
+>>> print string_1[6]
+S
+>>> print string_1[:2]
+he
+>>> print string_1[2:]
+llo Student
+>>> print string_1[0:3]
+hel
+>>> print string_1[-1:2]
+
+>>> print string_1[-1:-2]
+
+>>> print string_1[1:]
+ello Student
+>>> dir(string)
+
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    dir(string)
+NameError: name 'string' is not defined
+>>> dir(str)
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_formatter_field_name_split', '_formatter_parser', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'index', 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> print string_1.capitalize()
+Hello student
+>>> component = string_1.split()
+>>> print component
+['hello', 'Student']
+>>> type(component)
+<type 'list'>
+>>> string_2 = "attention future python developers"
+>>> component_2 = string_2.split(",")
+>>> print component_2
+['attention future python developers']
+>>> string_2 = "attention,future,python,developers"
+>>> component_2 = string_2.split(",")
+>>> print component_2
+['attention', 'future', 'python', 'developers']
+>>> "  ".join(component)
+'hello  Student'
+>>> "  ".join(component_2)
+'attention  future  python  developers'
+>>> component_3 = component + component_2
+>>> print component_3
+['hello', 'Student', 'attention', 'future', 'python', 'developers']
+>>> list1=['chemistry', 'history', 1940. 1960]
+SyntaxError: invalid syntax
+>>> list1=['chemistry', 'history', 1940, 1960]
+>>> dir(list1)
+['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__delslice__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getslice__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__setslice__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+>>> help(list1.append)
+Help on built-in function append:
+
+append(...)
+    L.append(object) -- append object to end
+
+>>> lit1.append(2007)
+
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    lit1.append(2007)
+NameError: name 'lit1' is not defined
+>>> list1.append(2007)
+>>> list1
+['chemistry', 'history', 1940, 1960, 2007]
+>>> list1.reverse()
+>>> list1
+[2007, 1960, 1940, 'history', 'chemistry']
+>>> list1[0] =list[0].append(666)
+
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    list1[0] =list[0].append(666)
+TypeError: 'type' object has no attribute '__getitem__'
+>>> print list1[0]
+2007
+>>> list1[0] =list1[0].append(666)
+
+Traceback (most recent call last):
+  File "<pyshell#41>", line 1, in <module>
+    list1[0] =list1[0].append(666)
+AttributeError: 'int' object has no attribute 'append'
+>>> list1[0].append(666)
+
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    list1[0].append(666)
+AttributeError: 'int' object has no attribute 'append'
+>>> temp = list1[0]
+>>> temp.append(666)
+
+Traceback (most recent call last):
+  File "<pyshell#44>", line 1, in <module>
+    temp.append(666)
+AttributeError: 'int' object has no attribute 'append'
+>>> list1[3] = list1[3].append(rrr)
+
+Traceback (most recent call last):
+  File "<pyshell#45>", line 1, in <module>
+    list1[3] = list1[3].append(rrr)
+AttributeError: 'str' object has no attribute 'append'
+>>> list1[3] = list1[3].append('rrr')
+
+Traceback (most recent call last):
+  File "<pyshell#46>", line 1, in <module>
+    list1[3] = list1[3].append('rrr')
+AttributeError: 'str' object has no attribute 'append'
+>>> list1[3] = list1[3] + 'rrr'
+>>> print list[3]
+
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    print list[3]
+TypeError: 'type' object has no attribute '__getitem__'
+>>> print list1[3]
+historyrrr
+>>> range(5)
+[0, 1, 2, 3, 4]
+>>> range(0,5)
+[0, 1, 2, 3, 4]
+>>> range(1,5)
+[1, 2, 3, 4]
+>>> range(0,10,2)
+[0, 2, 4, 6, 8]
+>>> range(0,10,3)
+[0, 3, 6, 9]
+>>> range(0,5,1)
+[0, 1, 2, 3, 4]
+>>> range(0,5,0.5)
+
+Traceback (most recent call last):
+  File "<pyshell#56>", line 1, in <module>
+    range(0,5,0.5)
+TypeError: range() integer step argument expected, got float.
+>>> for anything_1 in range(6)
+SyntaxError: invalid syntax
+>>> for anything_1 in range(6):
+	print anything_1
+
+	
+0
+1
+2
+3
+4
+5
+>>> for i in range (4,10,20
+		print i
+		
+SyntaxError: invalid syntax
+>>> for i in range (4,10,2):
+	print i
+
+	
+4
+6
+8
+>>> for i in range(3,0,-1):
+	print i
+
+	
+3
+2
+1
+>>> list1
+[2007, 1960, 1940, 'historyrrr', 'chemistry']
+>>> list1.reverse()
+>>> list1
+['chemistry', 'historyrrr', 1940, 1960, 2007]
+>>> for element in list1:
+	print element
+
+	
+chemistry
+historyrrr
+1940
+1960
+2007
+>>> for index, element in enumerate(list1):
+	print index, element
+
+	
+0 chemistry
+1 historyrrr
+2 1940
+3 1960
+4 2007
+>>> for index, element in enumerate(list1):
+	if index == 2:
+		list1[index] = 666
+
+		
+>>> list1
+['chemistry', 'historyrrr', 666, 1960, 2007]
+>>> 

@@ -1,0 +1,10 @@
+How to Submit Homework
+
+1) Log in to your account.
+2) On the right side of the screen, review the "To Do" list. You will see links titled similar to  "Turn in Homework X" or "Homework X".
+3) Click the appropriate link.
+4) On the new page, click Submit assignment at the top of the page.
+5) On the bottom of the page, click the "Choose file" and navigate to the file you want to submit.
+6) If you have additional files, repeat step 5. (Submit both the program(s) and the console output).
+7) Click the Submit button. 
+The submitted files will upload and will appear on the top of the right side of the page.  

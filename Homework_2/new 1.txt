@@ -1,0 +1,16 @@
+'''
+# IsUppercase test
+# Takes as input a single charater string and
+# returns True if character string is uppercase vowel.
+
+        if letter == 'A' or letter == 'E' or letter == 'I' or letter == 'O' or letter == 'U':
+            result = 'vowel is uppercase'
+            response1 = 'true'
+            print result, response1
+            # return True
+        else:
+            result = 'vowel is not uppercase'
+            response1 = 'false'
+            print result, response1
+            # return False
+'''

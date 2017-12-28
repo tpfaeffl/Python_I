@@ -1,0 +1,89 @@
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:42:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> file_object = open('test.py', 'w')
+>>> type(file_object)
+<type 'file'>
+>>> dir(file_object)
+['__class__', '__delattr__', '__doc__', '__enter__', '__exit__', '__format__', '__getattribute__', '__hash__', '__init__', '__iter__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'close', 'closed', 'encoding', 'errors', 'fileno', 'flush', 'isatty', 'mode', 'name', 'newlines', 'next', 'read', 'readinto', 'readline', 'readlines', 'seek', 'softspace', 'tell', 'truncate', 'write', 'writelines', 'xreadlines']
+>>> file_object
+<open file 'test.py', mode 'w' at 0x02A95128>
+>>> file_object=open('text.txt', 'w')
+>>> file_object
+<open file 'text.txt', mode 'w' at 0x02BA7910>
+>>> file_object.write('
+		  
+SyntaxError: EOL while scanning string literal
+>>> file_object.write('this is the 1st line of the file\n')
+>>> file_object.write('thi sis the 2nd line of the file \n')
+>>> file_object.close()
+>>> #stored wherever python lives unless you give it a path
+>>> file_object
+<closed file 'text.txt', mode 'w' at 0x02BA7910>
+>>> file_object.write('this is a thrd line', 'w')
+
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    file_object.write('this is a thrd line', 'w')
+ValueError: I/O operation on closed file
+>>> file_object.open('text.txt' ,'r')
+
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    file_object.open('text.txt' ,'r')
+AttributeError: 'file' object has no attribute 'open'
+>>> file_object.=open('text.txt' ,'r')
+SyntaxError: invalid syntax
+>>> file_object=open('text.txt' ,'r')
+>>> file_object.read()
+'this is the 1st line of the file\nthi sis the 2nd line of the file \n'
+>>> file_object.read()
+''
+>>> # no content because cursor at end of file
+>>> file_object.seek(0)
+>>> file_object.read()
+'this is the 1st line of the file\nthi sis the 2nd line of the file \n'
+>>> #seek repositions cursor at top.
+>>> file_object.seek(0)
+>>> file_object.reaadline()
+
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    file_object.reaadline()
+AttributeError: 'file' object has no attribute 'reaadline'
+>>> file_object.readline()
+'this is the 1st line of the file\n'
+>>> file_object.readline()
+'thi sis the 2nd line of the file \n'
+>>> file_object.readline()
+''
+>>> file_object.seek(0)
+>>> file_object.readlines()
+['this is the 1st line of the file\n', 'thi sis the 2nd line of the file \n']
+>>> file_list = file_object.readlines()
+>>> file_object.seek(0)
+>>> file_list = file_object.readlines()
+>>> file_list
+['this is the 1st line of the file\n', 'thi sis the 2nd line of the file \n']
+>>> file_object.seek(0)
+>>> file_list2 = file_object.readlines(2)
+>>> file_list2
+['this is the 1st line of the file\n', 'thi sis the 2nd line of the file \n']
+>>> file_object.close()
+>>> 
+>>> # LAB 10
+>>> string1= '1'
+>>> string1.isdigit90
+
+Traceback (most recent call last):
+  File "<pyshell#40>", line 1, in <module>
+    string1.isdigit90
+AttributeError: 'str' object has no attribute 'isdigit90'
+>>> string1.isdigit()
+True
+>>> string2='a'
+>>> string2.isdigit()
+False
+>>> string3="ATOM, 23,3,dbvrrbr"
+>>> string3.startswith('ATOM')
+True
+>>> 

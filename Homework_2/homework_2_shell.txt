@@ -1,0 +1,80 @@
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:42:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+
+========= RESTART: C:\UCSCExtension\Python\Homework_2\homework_2.py =========
+Enter a single letter:
+Enter 'quit' to exit.
+quit
+>>> 
+====== RESTART: C:/UCSCExtension/Python/Homework_2/homework_work2_2.py ======
+Enter a single letter:
+Enter 'quit' to exit.
+r
+
+ The letter entered, r, is NOT a vowel.
+
+Enter a single letter:
+Enter 'quit' to exit.
+a
+
+ The letter entered, a, is a vowel.
+
+>>> 
+====== RESTART: C:/UCSCExtension/Python/Homework_2/homework_work2_2.py ======
+Enter a single letter:
+Enter 'quit' to exit.
+quit
+Enter a single letter:
+Enter 'quit' to exit.
+
+====== RESTART: C:/UCSCExtension/Python/Homework_2/homework_work2_2.py ======
+Enter a single letter:
+Enter 'quit' to exit.
+quit
+>>> 
+====== RESTART: C:/UCSCExtension/Python/Homework_2/homework_work2_2.py ======
+Enter a single letter:
+Enter 'quit' to exit.
+r
+
+ The letter entered, r, is NOT a vowel.
+
+Enter a single letter:
+Enter 'quit' to exit.
+I
+
+ The letter entered, I, is a vowel.
+
+>>> 
+====== RESTART: C:/UCSCExtension/Python/Homework_2/homework_work2_2.py ======
+Enter a single letter:
+Enter 'quit' to exit.
+r
+
+ The letter entered, r, is NOT a vowel.
+
+Enter a single letter:
+Enter 'quit' to exit.
+quit
+>>> 
+====== RESTART: C:/UCSCExtension/Python/Homework_2/homework_work2_2.py ======
+Enter a single letter:
+Enter 'quit' to exit.
+f
+
+ The letter entered, f, is NOT a vowel.
+
+Enter a single letter:
+Enter 'quit' to exit.
+G
+
+ The letter entered, G, is NOT a vowel.
+
+Enter a single letter:
+Enter 'quit' to exit.
+U
+
+ The letter entered, U, is a vowel.
+
+>>> 
